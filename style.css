@@ -16,6 +16,7 @@ html {
     scroll-behavior: smooth;
 }
 
+
 /* INICIO DO HEADER */
 
 .nav {
@@ -198,6 +199,11 @@ html {
     border-radius: 19px;
 
 }
+
+
+
+
+
 
 .lista-projetos img:hover {
 
