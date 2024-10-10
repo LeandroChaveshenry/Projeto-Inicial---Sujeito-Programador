@@ -156,6 +156,38 @@ html {
 
 /*INICIO PROJETOS*/
 
+
+.photo-buttons {
+
+    margin-top: 5px;
+    text-align: center;
+    user-select: none;
+    margin-top: auto;
+
+}
+
+.photo-buttons1 img {
+
+    width: 25%;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+    padding-bottom: 0.3%;
+    opacity: 0.8;
+    transition: 0.9s;
+    border-radius: 19px;
+    
+
+}
+
+.photo-buttons img:hover {
+
+    opacity: 1;
+
+
+}
+
+
+
 .projetos {
 
     width: 100%;
@@ -163,12 +195,14 @@ html {
     flex-direction: column;
     align-items: center;
     padding: 80px 0;
+    
 }
 
 .projetos h2 {
 
-    padding-bottom: 15px;
+    padding-bottom: 5px;
     font-size: 35px;
+
 }
 
 .projetos p {
@@ -178,46 +212,15 @@ html {
     font-size: 20px;
 }
 
-.lista-projetos {
-
-    width: 100%;
-    margin-bottom: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 
-
-}
-
-.lista-projetos img {
-    width: 25%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
-    opacity: 0.8;
-    transition: 0.9s;
-    border-radius: 19px;
-
-}
-
-
-
-
-
-
-.lista-projetos img:hover {
-
-    opacity: 1;
-
-
-}
 
 .botao {
 
     background-color: #181818;
     color: #ffffff;
     padding: 15px 24px;
-    margin-top: 15px;
+    margin-top: 35px;
     border: 0;
     border-radius: 5px;
     transition: 0.9s;
@@ -267,97 +270,97 @@ html {
         font-size: 45px;
     }
 
-    .main p{
+    .main p {
 
         font-size: 18px;
     }
 
-    .main{
+    .main {
 
         background-size: cover;
     }
 
 
 
-/*FIM RESPONSIVIDADE MAIN*/
+    /*FIM RESPONSIVIDADE MAIN*/
 
 
-/*INICIO RESPONSIVIDADE SOBRE*/
+    /*INICIO RESPONSIVIDADE SOBRE*/
 
-.about {
+    .about {
 
         flex-direction: column;
         padding-top: 80px;
         padding-left: 0;
         padding-right: 0;
         padding-bottom: 0;
-}
+    }
 
-.about div {
+    .about div {
 
-    max-width: 90%;
-}
+        max-width: 90%;
+    }
 
-.about h2{
+    .about h2 {
 
-    font-size: 48px;
-}
+        font-size: 48px;
+    }
 
-.about p {
+    .about p {
 
-    margin-bottom: 30px;
-}
+        margin-bottom: 30px;
+    }
 
-.about img{
+    .about img {
 
-    width: 90%;
-}
+        width: 90%;
+    }
 
 
-/*FIM RESPONSIVIDADE SOBRE*/
+    /*FIM RESPONSIVIDADE SOBRE*/
 
-/*INICIO RESPONSIVIDADE PROJETO*/
+    /*INICIO RESPONSIVIDADE PROJETO*/
 
-.projetos h2 {
+    .projetos h2 {
 
-    font-size: 25px;
-}
+        font-size: 25px;
+    }
 
-.projetos p {
+    .projetos p {
 
-    font-size: 15px;
-}
+        font-size: 15px;
+    }
 
-.lista-projetos img {
+    .photo-buttons1 img {
 
-    width: 32%;
-    padding-left: 0.2%;
-    padding-right: 0.2%;
-    border-radius: 5px;
-    
-}
+        width: 32%;
+        padding-left: 0.2%;
+        padding-right: 0.2%;
+        border-radius: 5px;
 
-/* FIM RESPONSIVIDADE PROJETO*/
+    }
 
-/*INICIO RODAPÉ*/
+    /* FIM RESPONSIVIDADE PROJETO*/
 
-.footer {
+    /*INICIO RODAPÉ*/
 
-    flex-direction: column;
-    font-size: 13px;
-    
-}
+    .footer {
 
-.footer h3 {
-    margin-bottom: 10px;
-    font-size: 22px;
-}
+        flex-direction: column;
+        font-size: 13px;
 
-.footer p {
+    }
 
-    margin: 0;
-}
+    .footer h3 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
 
-/*FIM DO RODAPÉ*/
+    .footer p {
+
+        margin: 0;
+    }
+
+    /*FIM DO RODAPÉ*/
 
 }
